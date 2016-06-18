@@ -1,0 +1,63 @@
+* {
+    font-size: 1.1em;
+}
+
+#container {
+    width: 760px;
+    margin: auto;
+}
+
+.menu {
+    width: 200px;
+    float: right;
+    font-size: 0.75em;
+    margin: 30px 0;
+    background-image: url(../images/green.png);
+    border-radius: 20px;
+}
+
+.menu li {
+    list-style-type: none;
+    margin-bottom: 8px;
+
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #ffff00;
+}
+
+.menu ul {}
+
+#content {
+    width: 530px;
+    float: left;
+    margin: 30px 0;
+}
+
+#footer {
+    clear: both;
+    width: 760px;
+    background-color: #04629c;
+}
+
+#footer p {
+    color: #ffffff;
+    font-size: 0.75em;
+    margin: 0;
+    padding: 10px;
+}
+
+#head {
+    background-image: url(../images/fruit.jpg);
+    height: 150px;
+}
+
+#head p {
+    padding: 10px;
+    color: white;
+}
