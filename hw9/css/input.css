@@ -52,7 +52,6 @@
     letter-spacing: normal;
     word-wrap: normal;
     white-space: nowrap;
-   
     /* Support for all WebKit browsers. */
     -webkit-font-smoothing: antialiased;
     /* Support for Safari and Chrome. */
@@ -94,3 +93,5 @@
     vertical-align: middle;
     width: 50px;
 }
+
+
