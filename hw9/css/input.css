@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    border: 3px solid;
+    height: 700px;
+    width: 800px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 40px;
+}
+
+.input,
+.input2 {
+    background-image: image() width: 100%;
+    height: 70px;
+    margin-top: 30px;
+    padding-left: 70px;
+    font-size: 32px;
+}
+
+.input2 {
+    width: 50%;
+}
+
+.submit,
+.submit2 {
+    width: 100%;
+    height: 70px;
+    margin-top: 30px;
+    padding-left: 20px;
+    font-size: 32px;
+    background-color: darkgray;
+    color: white;
+}
+
+.submit2 {
+    background-color: skyblue;
+    color: white;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 48px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+   
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+    position: relative;
+    left: -460px;
+    top: 15px;
+}
+
+.line {
+    border: 0;
+    border-top: 1px solid #000;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.line::after {
+    background: #fff;
+    content: 'or';
+    display: inline-block;
+    padding: 0 .5em;
+    position: relative;
+    top: -.7em;
+}
+
+.circle {
+    background-color: aliceblue;
+    border-radius: 50%;
+    border: 1px solid;
+    color: darkgray;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    width: 50px;
+}
