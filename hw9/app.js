@@ -6,7 +6,8 @@ $(function () {
         var height = $("#height").val() / 100;
         var weight = $("#weight").val()
         var ans = Math.round(10 * weight / (height * height)) / 10;
-        $("#result").text(ans);
+
+        $("#result").text(ans).slideDown();
 
         $("#result1").hide();
         $("#result2").hide();
